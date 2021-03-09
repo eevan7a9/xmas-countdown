@@ -1,1 +1,19 @@
 @import "./reset.css";
+
+body {
+  background-image: url(../assets/green-bg.png);
+}
+.page-container {
+  background-image: url(../assets/snow-bg.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  section {
+    background-color: red;
+  }
+}
